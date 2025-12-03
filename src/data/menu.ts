@@ -20,11 +20,11 @@ export interface WeekMenu {
 }
 
 export const DAYS_OF_WEEK = [
-  'Понедельник',
-  'Вторник',
-  'Среда',
-  'Четверг',
-  'Пятница'
+  'Monday',
+  'Tuesday',
+  'Wednesday',
+  'Thursday',
+  'Friday'
 ] as const;
 
 export const menuData: WeekMenu[] = [
@@ -32,101 +32,101 @@ export const menuData: WeekMenu[] = [
     week: 1,
     days: [
       {
-        day: 'Понедельник',
+        day: 'Monday',
         meals: {
           breakfast: [
-            { name: 'Овсяная каша', icon: '🥣' },
-            { name: 'Масло/Хлеб', icon: '🍞' },
-            { name: 'Фруктовый чай', icon: '☕' },
-            { name: 'Фрукт', icon: '🍎' }
+            { name: 'Oatmeal', icon: '🥣' },
+            { name: 'Butter/Bread', icon: '🍞' },
+            { name: 'Fruit tea', icon: '☕' },
+            { name: 'Fruit', icon: '🍎' }
           ],
           lunch: [
-            { name: 'Рисовый суп/Хлеб', icon: '🍲' },
-            { name: 'Морковный кекс', icon: '🧁' }
+            { name: 'Rice soup/Bread', icon: '🍲' },
+            { name: 'Carrot muffin', icon: '🧁' }
           ],
           snack: [
-            { name: 'Куриная котлета', icon: '🍖' },
-            { name: 'Гречневый гарнир/Хлеб', icon: '🍚' },
-            { name: 'Фруктовый сок', icon: '🥤' }
+            { name: 'Chicken cutlet', icon: '🍖' },
+            { name: 'Buckwheat side dish/Bread', icon: '🍚' },
+            { name: 'Fruit juice', icon: '🥤' }
           ]
         }
       },
       {
-        day: 'Вторник',
+        day: 'Tuesday',
         meals: {
           breakfast: [
-            { name: 'Манная каша', icon: '🥣' },
-            { name: 'Фруктовое пюре/Хлеб', icon: '🍞' },
-            { name: 'Фруктовый чай', icon: '☕' },
-            { name: 'Фрукт', icon: '🍎' }
+            { name: 'Semolina porridge', icon: '🥣' },
+            { name: 'Fruit puree/Bread', icon: '🍞' },
+            { name: 'Fruit tea', icon: '☕' },
+            { name: 'Fruit', icon: '🍎' }
           ],
           lunch: [
-            { name: 'Говяжья тефтеля', icon: '🍖' },
-            { name: 'Овощной суп-пюре/Хлеб', icon: '🍲' },
-            { name: 'Огуречные и морковные палочки', icon: '🥒' }
+            { name: 'Beef meatball', icon: '🍖' },
+            { name: 'Vegetable cream soup/Bread', icon: '🍲' },
+            { name: 'Cucumber and carrot sticks', icon: '🥒' }
           ],
           snack: [
-            { name: 'Тушеная вермишель со сметаной', icon: '🍝' },
-            { name: 'Фруктовый сок', icon: '🥤' }
+            { name: 'Pasta with sour cream', icon: '🍝' },
+            { name: 'Fruit juice', icon: '🥤' }
           ]
         }
       },
       {
-        day: 'Среда',
+        day: 'Wednesday',
         meals: {
           breakfast: [
-            { name: 'Рисовая каша', icon: '🥣' },
-            { name: 'Масло/Хлеб', icon: '🍞' },
-            { name: 'Фруктовый чай', icon: '☕' },
-            { name: 'Фрукт', icon: '🍎' }
+            { name: 'Rice porridge', icon: '🥣' },
+            { name: 'Butter/Bread', icon: '🍞' },
+            { name: 'Fruit tea', icon: '☕' },
+            { name: 'Fruit', icon: '🍎' }
           ],
           lunch: [
-            { name: 'Борщ/Хлеб', icon: '🍲' },
-            { name: 'Яблочный кекс', icon: '🧁' }
+            { name: 'Borscht/Bread', icon: '🍲' },
+            { name: 'Apple muffin', icon: '🧁' }
           ],
           snack: [
-            { name: 'Отварная курица', icon: '🍗' },
-            { name: 'Гарнир из булгура/Хлеб', icon: '🍚' },
-            { name: 'Фруктовый сок', icon: '🥤' }
+            { name: 'Boiled chicken', icon: '🍗' },
+            { name: 'Bulgur side dish/Bread', icon: '🍚' },
+            { name: 'Fruit juice', icon: '🥤' }
           ]
         }
       },
       {
-        day: 'Четверг',
+        day: 'Thursday',
         meals: {
           breakfast: [
-            { name: 'Французский тост', icon: '🍞' },
-            { name: 'Творожное и сметанное суфле', icon: '🥛' },
-            { name: 'Фруктовый чай', icon: '☕' },
-            { name: 'Фрукт', icon: '🍎' }
+            { name: 'French toast', icon: '🍞' },
+            { name: 'Cottage cheese soufflé', icon: '🥛' },
+            { name: 'Fruit tea', icon: '☕' },
+            { name: 'Fruit', icon: '🍎' }
           ],
           lunch: [
-            { name: 'Овощной суп/Хлеб', icon: '🍲' },
-            { name: 'Салат из брокколи', icon: '🥗' }
+            { name: 'Vegetable soup/Bread', icon: '🍲' },
+            { name: 'Broccoli salad', icon: '🥗' }
           ],
           snack: [
-            { name: 'Макароны с сыром и мацони', icon: '🍝' },
-            { name: 'Фруктовый сок', icon: '🥤' }
+            { name: 'Pasta with cheese and yogurt', icon: '🍝' },
+            { name: 'Fruit juice', icon: '🥤' }
           ]
         }
       },
       {
-        day: 'Пятница',
+        day: 'Friday',
         meals: {
           breakfast: [
-            { name: 'Гречневая каша', icon: '🥣' },
-            { name: 'Фруктовое пюре/Хлеб', icon: '🍞' },
-            { name: 'Фруктовый чай', icon: '☕' },
-            { name: 'Фрукт', icon: '🍎' }
+            { name: 'Buckwheat porridge', icon: '🥣' },
+            { name: 'Fruit puree/Bread', icon: '🍞' },
+            { name: 'Fruit tea', icon: '☕' },
+            { name: 'Fruit', icon: '🍎' }
           ],
           lunch: [
-            { name: 'Суп-пюре из брокколи с овощами/Хлеб', icon: '🍲' },
-            { name: 'Хачапури', icon: '🥙' }
+            { name: 'Broccoli cream soup/Bread', icon: '🍲' },
+            { name: 'Khachapuri', icon: '🥙' }
           ],
           snack: [
-            { name: 'Отварная рыба', icon: '🐟' },
-            { name: 'Гарнир из булгура и моркови/Хлеб', icon: '🍚' },
-            { name: 'Фруктовый сок', icon: '🥤' }
+            { name: 'Boiled fish', icon: '🐟' },
+            { name: 'Bulgur and carrot side dish/Bread', icon: '🍚' },
+            { name: 'Fruit juice', icon: '🥤' }
           ]
         }
       }
@@ -136,101 +136,101 @@ export const menuData: WeekMenu[] = [
     week: 2,
     days: [
       {
-        day: 'Понедельник',
+        day: 'Monday',
         meals: {
           breakfast: [
-            { name: 'Рисовая каша', icon: '🥣' },
-            { name: 'Масло/Хлеб', icon: '🍞' },
-            { name: 'Фруктовый чай', icon: '☕' },
-            { name: 'Фрукт', icon: '🍎' }
+            { name: 'Rice porridge', icon: '🥣' },
+            { name: 'Butter/Bread', icon: '🍞' },
+            { name: 'Fruit tea', icon: '☕' },
+            { name: 'Fruit', icon: '🍎' }
           ],
           lunch: [
-            { name: 'Суп с капустой/Хлеб', icon: '🍲' },
-            { name: 'Огуречные и морковные палочки', icon: '🥒' }
+            { name: 'Cabbage soup/Bread', icon: '🍲' },
+            { name: 'Cucumber and carrot sticks', icon: '🥒' }
           ],
           snack: [
-            { name: 'Говяжья котлета', icon: '🍖' },
-            { name: 'Гречневый гарнир/Хлеб', icon: '🍚' },
-            { name: 'Фруктовый сок', icon: '🥤' }
+            { name: 'Beef cutlet', icon: '🍖' },
+            { name: 'Buckwheat side dish/Bread', icon: '🍚' },
+            { name: 'Fruit juice', icon: '🥤' }
           ]
         }
       },
       {
-        day: 'Вторник',
+        day: 'Tuesday',
         meals: {
           breakfast: [
-            { name: 'Манная каша', icon: '🥣' },
-            { name: 'Фруктовое пюре/Хлеб', icon: '🍞' },
-            { name: 'Фруктовый чай', icon: '☕' },
-            { name: 'Фрукт', icon: '🍎' }
+            { name: 'Semolina porridge', icon: '🥣' },
+            { name: 'Fruit puree/Bread', icon: '🍞' },
+            { name: 'Fruit tea', icon: '☕' },
+            { name: 'Fruit', icon: '🍎' }
           ],
           lunch: [
-            { name: 'Говяжий суп-харчо/Хлеб', icon: '🍲' },
-            { name: 'Овощной салат со сметаной', icon: '🥗' }
+            { name: 'Beef kharcho soup/Bread', icon: '🍲' },
+            { name: 'Vegetable salad with sour cream', icon: '🥗' }
           ],
           snack: [
-            { name: 'Жареное яйцо', icon: '🍳' },
-            { name: 'Тушеная вермишель с гарниром', icon: '🍝' },
-            { name: 'Фруктовый сок', icon: '🥤' }
+            { name: 'Fried egg', icon: '🍳' },
+            { name: 'Pasta side dish', icon: '🍝' },
+            { name: 'Fruit juice', icon: '🥤' }
           ]
         }
       },
       {
-        day: 'Среда',
+        day: 'Wednesday',
         meals: {
           breakfast: [
-            { name: 'Овсяная каша', icon: '🥣' },
-            { name: 'Масло/Хлеб', icon: '🍞' },
-            { name: 'Фруктовый чай', icon: '☕' },
-            { name: 'Фрукт', icon: '🍎' }
+            { name: 'Oatmeal', icon: '🥣' },
+            { name: 'Butter/Bread', icon: '🍞' },
+            { name: 'Fruit tea', icon: '☕' },
+            { name: 'Fruit', icon: '🍎' }
           ],
           lunch: [
-            { name: 'Чечевичный суп/Хлеб', icon: '🍲' },
-            { name: 'Яблочный кекс', icon: '🧁' }
+            { name: 'Lentil soup/Bread', icon: '🍲' },
+            { name: 'Apple muffin', icon: '🧁' }
           ],
           snack: [
-            { name: 'Говяжьи тефтели', icon: '🍖' },
-            { name: 'Гарнир из булгура/Хлеб', icon: '🍚' },
-            { name: 'Фруктовый сок', icon: '🥤' }
+            { name: 'Beef meatballs', icon: '🍖' },
+            { name: 'Bulgur side dish/Bread', icon: '🍚' },
+            { name: 'Fruit juice', icon: '🥤' }
           ]
         }
       },
       {
-        day: 'Четверг',
+        day: 'Thursday',
         meals: {
           breakfast: [
-            { name: 'Рисовая каша', icon: '🥣' },
-            { name: 'Фруктовое пюре/Хлеб', icon: '🍞' },
-            { name: 'Фруктовый чай', icon: '☕' },
-            { name: 'Фрукт', icon: '🍎' }
+            { name: 'Rice porridge', icon: '🥣' },
+            { name: 'Fruit puree/Bread', icon: '🍞' },
+            { name: 'Fruit tea', icon: '☕' },
+            { name: 'Fruit', icon: '🍎' }
           ],
           lunch: [
-            { name: 'Куриный бульон/Хлеб', icon: '🍲' },
-            { name: 'Тушеная брокколи', icon: '🥗' }
+            { name: 'Chicken broth/Bread', icon: '🍲' },
+            { name: 'Stewed broccoli', icon: '🥗' }
           ],
           snack: [
-            { name: 'Макароны со сметаной', icon: '🍝' },
-            { name: 'Фруктовый сок', icon: '🥤' }
+            { name: 'Pasta with sour cream', icon: '🍝' },
+            { name: 'Fruit juice', icon: '🥤' }
           ]
         }
       },
       {
-        day: 'Пятница',
+        day: 'Friday',
         meals: {
           breakfast: [
-            { name: 'Вермишелевая каша', icon: '🥣' },
-            { name: 'Масло/Хлеб', icon: '🍞' },
-            { name: 'Фруктовый чай', icon: '☕' },
-            { name: 'Фрукт', icon: '🍎' }
+            { name: 'Vermicelli porridge', icon: '🥣' },
+            { name: 'Butter/Bread', icon: '🍞' },
+            { name: 'Fruit tea', icon: '☕' },
+            { name: 'Fruit', icon: '🍎' }
           ],
           lunch: [
-            { name: 'Гороховый суп/Хлеб', icon: '🍲' },
-            { name: 'Картофельное пюре', icon: '🥔' }
+            { name: 'Pea soup/Bread', icon: '🍲' },
+            { name: 'Mashed potatoes', icon: '🥔' }
           ],
           snack: [
-            { name: 'Отварная рыба', icon: '🐟' },
-            { name: 'Гарнир из булгура и моркови/Хлеб', icon: '🍚' },
-            { name: 'Фруктовый сок', icon: '🥤' }
+            { name: 'Boiled fish', icon: '🐟' },
+            { name: 'Bulgur and carrot side dish/Bread', icon: '🍚' },
+            { name: 'Fruit juice', icon: '🥤' }
           ]
         }
       }
@@ -239,14 +239,14 @@ export const menuData: WeekMenu[] = [
 ];
 
 /**
- * Определяет номер недели меню (1 или 2) на основе текущей даты
- * Базовая дата - 2 декабря 2024 (понедельник недели 1)
+ * Determines the menu week number (1 or 2) based on current date
+ * Base date - December 2, 2024 (Monday of week 1)
  */
 export function getCurrentWeekNumber(): number {
-  const baseDate = new Date(2024, 11, 2); // 2 декабря 2024
+  const baseDate = new Date(2024, 11, 2); // December 2, 2024
   const currentDate = new Date();
 
-  // Сбрасываем время для точного сравнения дат
+  // Reset time for accurate date comparison
   baseDate.setHours(0, 0, 0, 0);
   currentDate.setHours(0, 0, 0, 0);
 
@@ -254,21 +254,21 @@ export function getCurrentWeekNumber(): number {
   const diffDays = Math.floor(diffTime / (1000 * 60 * 60 * 24));
   const diffWeeks = Math.floor(diffDays / 7);
 
-  // Четная неделя - неделя 1, нечетная - неделя 2
+  // Even week - week 1, odd week - week 2
   return (diffWeeks % 2) + 1;
 }
 
 /**
- * Получает текущий день недели (0-4 для Пн-Пт, null для выходных)
+ * Gets current day of week (0-4 for Mon-Fri, null for weekends)
  */
 export function getCurrentDayIndex(): number | null {
   const today = new Date();
   const dayOfWeek = today.getDay();
 
-  // Воскресенье = 0, Понедельник = 1, ... Пятница = 5, Суббота = 6
-  // Переводим в наш формат: Понедельник = 0, ... Пятница = 4
+  // Sunday = 0, Monday = 1, ... Friday = 5, Saturday = 6
+  // Convert to our format: Monday = 0, ... Friday = 4
   if (dayOfWeek === 0 || dayOfWeek === 6) {
-    return null; // Выходной
+    return null; // Weekend
   }
 
   return dayOfWeek - 1;

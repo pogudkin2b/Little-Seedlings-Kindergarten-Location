@@ -8,9 +8,9 @@ export default function Nutrition() {
   const { t } = useI18n();
 
   const mealTimes = [
-    { time: '9:00–9:15', meal: 'Завтрак', icon: '🥣' },
-    { time: '12:30–13:00', meal: 'Обед', icon: '🍽️' },
-    { time: '15:30–16:00', meal: 'Полдник', icon: '🥛' },
+    { time: '9:00–9:15', meal: 'Breakfast', icon: '🥣' },
+    { time: '12:30–13:00', meal: 'Lunch', icon: '🍽️' },
+    { time: '15:30–16:00', meal: 'Afternoon Snack', icon: '🥛' },
   ];
 
   return (
@@ -21,7 +21,7 @@ export default function Nutrition() {
       <div className="absolute -bottom-32 -right-32 w-80 h-80 bg-sage/20 rounded-full blur-3xl" />
 
       <div className="max-w-7xl mx-auto px-6 lg:px-8 relative">
-        {/* Верхняя секция - описание */}
+        {/* Top section - description */}
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center mb-20">
           {/* Image & Meal Times */}
           <motion.div
@@ -48,7 +48,7 @@ export default function Nutrition() {
               transition={{ duration: 0.6, delay: 0.3 }}
               className="absolute -bottom-8 -right-8 bg-cream rounded-3xl shadow-soft-lg p-6 max-w-xs border border-sand"
             >
-              <h4 className="font-display text-xl text-charcoal mb-4">3 приёма пищи</h4>
+              <h4 className="font-display text-xl text-charcoal mb-4">3 meals a day</h4>
               <div className="space-y-2">
                 {mealTimes.map((item, index) => (
                   <div key={index} className="flex items-center gap-3 text-sm">
@@ -95,7 +95,7 @@ export default function Nutrition() {
           </motion.div>
         </div>
 
-        {/* Нижняя секция - интерактивное меню */}
+        {/* Bottom section - interactive menu */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -104,10 +104,10 @@ export default function Nutrition() {
         >
           <div className="text-center mb-12">
             <h3 className="font-display text-3xl md:text-4xl text-charcoal mb-3">
-              Недельное меню
+              Weekly Menu
             </h3>
             <p className="text-warm-gray text-lg">
-              Выберите день недели, чтобы посмотреть подробное меню
+              Choose a day of the week to view the detailed menu
             </p>
           </div>
           <WeeklyMenu />

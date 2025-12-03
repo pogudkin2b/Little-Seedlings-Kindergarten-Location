@@ -6,21 +6,21 @@ import { menuData, getCurrentWeekNumber } from '@/data/menu';
 
 const mealConfig = {
   breakfast: {
-    title: 'Завтрак',
+    title: 'Breakfast',
     time: '9:00–9:15',
     bgGradient: 'from-peach/20 to-cream',
     badgeColor: 'bg-peach/30 text-terracotta',
     illustration: '🥣🍞☕🍎'
   },
   lunch: {
-    title: 'Обед',
+    title: 'Lunch',
     time: '12:30–13:00',
     bgGradient: 'from-sage/10 to-cream',
     badgeColor: 'bg-sage/30 text-sage',
     illustration: '🍲🥗🍞🥤'
   },
   snack: {
-    title: 'Полдник',
+    title: 'Afternoon Snack',
     time: '15:30–16:00',
     bgGradient: 'from-terracotta/10 to-cream',
     badgeColor: 'bg-terracotta/30 text-terracotta',
@@ -30,8 +30,8 @@ const mealConfig = {
 
 const dayNamesEn = ['sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday'];
 
-const dayNamesRu = ['Воскресенье', 'Понедельник', 'Вторник', 'Среда', 'Четверг', 'Пятница', 'Суббота'];
-const monthNamesRu = ['января', 'февраля', 'марта', 'апреля', 'мая', 'июня', 'июля', 'августа', 'сентября', 'октября', 'ноября', 'декабря'];
+const dayNamesRu = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+const monthNamesRu = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
 
 interface MealCardProps {
   mealType: 'breakfast' | 'lunch' | 'snack';
@@ -48,16 +48,16 @@ const MealCard = ({ mealType, items, delay, weekNumber, dayName }: MealCardProps
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    // Сбрасываем состояние при изменении параметров
+    // Reset state when parameters change
     setIsLoading(true);
     setImageError(false);
     setImageSrc('');
 
-    // Пробуем разные форматы изображений
+    // Try different image formats
     const basePath = `/images/menu/week${weekNumber}/${dayName}/${mealType}`;
     const formats = ['webp', 'jpg', 'jpeg', 'png'];
 
-    // Пробуем загрузить первый доступный формат
+    // Try to load first available format
     const tryFormats = async () => {
       for (const format of formats) {
         const path = `${basePath}.${format}`;
@@ -72,7 +72,7 @@ const MealCard = ({ mealType, items, delay, weekNumber, dayName }: MealCardProps
           continue;
         }
       }
-      // Если ни один формат не найден, показываем fallback
+      // If no format found, show fallback
       setImageError(true);
       setIsLoading(false);
     };
@@ -89,21 +89,21 @@ const MealCard = ({ mealType, items, delay, weekNumber, dayName }: MealCardProps
       whileHover={{ scale: 1.01, y: -2 }}
       className="flex flex-col md:flex-row rounded-3xl bg-cream shadow-soft overflow-hidden transition-all duration-300 hover:shadow-soft-lg border border-sand"
     >
-      {/* Левая часть — текст */}
+      {/* Left side - text */}
       <div className="flex-1 p-6 md:p-8 flex flex-col justify-center">
-        {/* Бейдж времени */}
+        {/* Time badge */}
         <span
           className={`inline-flex self-start px-4 py-1.5 rounded-xl text-sm font-semibold mb-3 ${config.badgeColor}`}
         >
           {config.time}
         </span>
 
-        {/* Заголовок */}
+        {/* Title */}
         <h3 className="font-display text-2xl md:text-3xl text-charcoal mb-4">
           {config.title}
         </h3>
 
-        {/* Список продуктов */}
+        {/* Food items list */}
         <ul className="space-y-2">
           {items.map((item, idx) => (
             <motion.li
@@ -121,13 +121,13 @@ const MealCard = ({ mealType, items, delay, weekNumber, dayName }: MealCardProps
         </ul>
       </div>
 
-      {/* Правая часть — изображение или иллюстрация */}
+      {/* Right side - image or illustration */}
       <div className={`relative w-full md:w-[35%] min-h-[200px] md:min-h-[280px] flex items-center justify-center bg-gradient-to-br ${config.bgGradient} overflow-hidden`}>
         {isLoading ? (
-          // Показываем пустое пространство во время загрузки
+          // Show empty space while loading
           <div className="w-full h-full" />
         ) : imageSrc ? (
-          // Показываем изображение, если оно загрузилось
+          // Show image if loaded
           <motion.img
             src={imageSrc}
             alt={config.title}
@@ -142,7 +142,7 @@ const MealCard = ({ mealType, items, delay, weekNumber, dayName }: MealCardProps
             className="w-full h-full object-cover"
           />
         ) : imageError ? (
-          // Показываем эмодзи только если изображение не найдено
+          // Show emoji only if image not found
           <div className="text-4xl md:text-5xl flex flex-wrap gap-2 justify-center items-center p-6">
             {config.illustration.split('').map((emoji, i) => (
               <motion.span
@@ -178,10 +178,10 @@ const WeekendMessage = () => (
       </svg>
     </motion.div>
     <h3 className="font-display text-2xl md:text-3xl text-charcoal mb-3">
-      Выходной день
+      Weekend
     </h3>
     <p className="text-warm-gray text-lg">
-      В выходные садик отдыхает
+      The kindergarten is closed on weekends
     </p>
   </motion.div>
 );
@@ -238,7 +238,7 @@ export default function WeeklyMenu() {
                 : 'text-charcoal hover:bg-sand/50'
             }`}
           >
-            Сегодня
+            Today
           </button>
           <button
             onClick={() => handleDayChange('tomorrow')}
@@ -248,7 +248,7 @@ export default function WeeklyMenu() {
                 : 'text-charcoal hover:bg-sand/50'
             }`}
           >
-            Завтра
+            Tomorrow
             <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
             </svg>
@@ -274,7 +274,7 @@ export default function WeeklyMenu() {
         </div>
         {!isWeekend && (
           <span className="inline-block px-3 py-1 rounded-full text-sm font-medium bg-sand text-warm-gray">
-            Неделя {weekNumber}
+            Week {weekNumber}
           </span>
         )}
       </motion.div>
@@ -319,7 +319,7 @@ export default function WeeklyMenu() {
         className="mt-12 text-center"
       >
         <p className="text-sm text-warm-gray">
-          Меню может корректироваться
+          Menu is subject to change
         </p>
       </motion.div>
     </div>
