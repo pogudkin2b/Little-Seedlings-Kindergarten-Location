@@ -42,9 +42,9 @@ export default function Program() {
   return (
     <section id="program" className="py-24 md:py-32 bg-sand relative overflow-hidden">
       {/* Wave divider top */}
-      <div className="absolute top-0 left-0 right-0">
+      <div className="absolute top-0 left-0 right-0 -translate-y-full">
         <svg viewBox="0 0 1440 60" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full h-auto">
-          <path d="M0 60V30C360 0 720 60 1080 30C1260 15 1350 0 1440 0V60H0Z" fill="#FDF8F3" />
+          <path d="M0 0V30C360 60 720 0 1080 30C1260 45 1350 60 1440 60V0H0Z" fill="#F5EDE4" />
         </svg>
       </div>
 
