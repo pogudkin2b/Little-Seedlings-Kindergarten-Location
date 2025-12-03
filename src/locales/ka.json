@@ -1,172 +1,190 @@
 {
   "nav": {
-    "about": "ჩვენს შესახებ",
-    "program": "პროგრამა",
-    "gallery": "გალერეა",
-    "nutrition": "კვება",
-    "reviews": "მიმოხილვები",
-    "pricing": "ფასები",
-    "contacts": "კონტაქტი"
+    "about": "About",
+    "program": "Program",
+    "gallery": "Gallery",
+    "nutrition": "Nutrition",
+    "reviews": "Reviews",
+    "pricing": "Pricing",
+    "contacts": "Contacts"
   },
   "hero": {
-    "title": "Elliot Kindergarten",
-    "subtitle": "კერძო საბავშვო ბაღი თბილისში",
-    "description": "თბილი ატმოსფერო, ინდივიდუალური მიდგომა და თქვენი შვილის განვითარება კომფორტულ გარემოში",
-    "cta": "ჩაეწერეთ ექსკურსიაზე",
-    "whatsapp": "მოგვწერეთ WhatsApp-ში"
+    "title": "Little Seedlings English Kindergarten",
+    "subtitle": "Montessori-based English kindergarten in Saburtalo",
+    "description": "A warm, international kindergarten in Saburtalo that helps your child build real-life English skills, independence and self-esteem through the Montessori approach.",
+    "cta": "Book a Visit",
+    "whatsapp": "Text us on WhatsApp"
   },
   "advantages": {
-    "title": "რატომ Elliot",
-    "subtitle": "ჩვენ შევქმენით სივრცე, სადაც ბავშვებს უყვართ სწავლა და მშობლები სიმშვიდით ენდობიან",
+    "title": "Why Choose Little Seedlings",
+    "subtitle": "We combine the Montessori method with a fully English-speaking environment, helping children grow emotionally, socially and academically at their own pace.",
     "items": {
-      "bilingual": {
-        "title": "ორენოვანი ჯგუფები",
-        "description": "რუსული და ქართული ენები ყოველდღიურ კომუნიკაციაში"
+      "montessori": {
+        "title": "Montessori Learning",
+        "description": "Learning through play with authentic Montessori materials and child-led exploration"
       },
-      "yard": {
-        "title": "საკუთარი ეზო",
-        "description": "უსაფრთხო გარე სივრცე სეირნობისა და თამაშისთვის"
-      },
-      "adaptation": {
-        "title": "რბილი ადაპტაცია",
-        "description": "შეუფერხებელი გადასვლა ბავშვისა და მშობლებისთვის სტრესის გარეშე"
-      },
-      "schedule": {
-        "title": "სტრუქტურირებული განრიგი",
-        "description": "ორგანიზებული დღე განმავითარებელი აქტივობებით"
-      },
-      "themes": {
-        "title": "თემატური კვირეები",
-        "description": "საინტერესო პროექტები და სხვადასხვა თემებში ჩაძირვა"
-      },
-      "reports": {
-        "title": "ფოტო და ვიდეო ანგარიშები",
-        "description": "ბაღის მომენტების ყოველდღიური გაზიარება"
-      },
-      "meals": {
-        "title": "დღეში 4-5 კვება",
-        "description": "სახლში მომზადებული საკვები დიეტური საჭიროებების გათვალისწინებით"
+      "english": {
+        "title": "Real English Acquisition",
+        "description": "Daily English immersion helps children speak in full sentences within months"
       },
       "community": {
-        "title": "მშობელთა საზოგადოება",
-        "description": "მეგობრული ატმოსფერო და ერთობლივი ღონისძიებები"
+        "title": "International Community",
+        "description": "Small, diverse groups create a warm, welcoming environment for every child"
+      },
+      "atmosphere": {
+        "title": "Home-like Atmosphere",
+        "description": "A cozy, nurturing space that feels like a second home, not a formal institution"
+      },
+      "teachers": {
+        "title": "Patient, Caring Teachers",
+        "description": "We handle behavioral challenges with love, patience and clear boundaries"
+      },
+      "communication": {
+        "title": "Strong Parent Communication",
+        "description": "Regular feedback and updates about your child's progress and development"
+      },
+      "outdoor": {
+        "title": "Plenty of Outdoor Play",
+        "description": "Daily outside playtime and movement are essential parts of our program"
+      },
+      "flexible": {
+        "title": "Not Rigid or Formal",
+        "description": "Children learn at their own pace in a relaxed, supportive environment"
       }
     }
   },
   "gallery": {
-    "title": "ჩვენი ცხოვრება",
-    "subtitle": "ყოველი დღე სავსეა სიხარულით, აღმოჩენებითა და ზრუნვით"
+    "title": "Our Life",
+    "subtitle": "Every day is filled with discovery, play, and learning"
   },
   "program": {
-    "title": "პროგრამა",
-    "subtitle": "განვითარება თამაშისა და შემოქმედების მეშვეობით",
+    "title": "Program",
+    "subtitle": "Montessori education with full English immersion",
     "age": {
-      "title": "ასაკი",
-      "value": "2-დან 6 წლამდე"
+      "title": "Age",
+      "value": "3 to 6 years old"
     },
     "included": {
-      "title": "რა შედის",
+      "title": "What's Included",
       "items": [
-        "განმავითარებელი აქტივობები",
-        "შემოქმედებითი სახელოსნოები",
-        "მუსიკალური გაკვეთილები",
-        "სკოლისთვის მომზადება",
-        "გარე სეირნობა"
+        "Montessori materials and activities",
+        "Reading and early literacy",
+        "Math and practical life skills",
+        "Sensorial activities",
+        "Songs and music",
+        "Science and geography (planets, continents)",
+        "Daily outdoor playtime",
+        "Meals and snacks"
       ]
     },
     "extra": {
-      "title": "დამატებითი გაკვეთილები",
+      "title": "Learning Through English",
       "items": [
-        { "name": "ბალეტი", "icon": "ballet" },
-        { "name": "კარატე", "icon": "karate" },
-        { "name": "იოგა", "icon": "yoga" },
-        { "name": "ცურვა", "icon": "swimming" },
-        { "name": "ინგლისური", "icon": "english" },
-        { "name": "სიმღერა", "icon": "singing" }
+        { "name": "Reading", "icon": "english" },
+        { "name": "Math", "icon": "karate" },
+        { "name": "Science", "icon": "yoga" },
+        { "name": "Geography", "icon": "swimming" },
+        { "name": "Music", "icon": "singing" },
+        { "name": "Art", "icon": "ballet" }
       ]
     }
   },
   "nutrition": {
-    "title": "კვება",
-    "subtitle": "გემრიელი და ჯანსაღი — როგორც სახლში",
-    "description": "მენიუ შედგენილია ბავშვების ასაკობრივი საჭიროებების მიხედვით. ყოველდღიურად ვამზადებთ ახალი პროდუქტებისგან.",
-    "menuUpdate": "მენიუ ყოველკვირეულად განახლდება",
-    "downloadMenu": "მენიუს ნიმუშის ჩამოტვირთვა (PDF)"
+    "title": "Nutrition",
+    "subtitle": "Healthy meals throughout the day",
+    "description": "Children receive nutritious meals and snacks during the day, giving them energy for learning and play.",
+    "menuUpdate": "Meals prepared fresh daily",
+    "downloadMenu": "Ask us about our menu"
   },
   "reviews": {
-    "title": "მშობლების მიმოხილვები",
-    "subtitle": "რას ამბობენ ჩვენზე",
+    "title": "Parent Reviews",
+    "subtitle": "What families say about Little Seedlings",
     "items": [
       {
-        "text": "Elliot ჩვენი ქალიშვილისთვის მეორე სახლი გახდა. აღმზრდელები მზრუნველი და ყურადღებიანი არიან, ის ყოველ დილას სიხარულით მირბის ბაღში!",
-        "author": "მარია კ.",
-        "role": "სოფიას დედა, 4 წლის"
+        "text": "After just four months at Little Seedlings, my 5-year-old could already speak English fluently in almost every context. Beyond English, we saw our stepson grow out of his toddler habits and embrace boyhood with many new virtues. The teachers handled his hyperactivity with such love and care. We never felt guilty about his behavior, only more dedicated to helping him improve. There are no words to express our gratitude.",
+        "author": "Chad Meyers",
+        "role": "parent"
       },
       {
-        "text": "შესანიშნავი პროგრამა, მრავალფეროვანი აქტივობები. ჩემმა ვაჟმა ორ ენაზე დაიწყო საუბარი და ხატვა შეუყვარდა.",
-        "author": "გიორგი მ.",
-        "role": "დავითის მამა, 5 წლის"
+        "text": "My daughter attended Little Seedlings for about three weeks in the summer as a summer school and it was wonderful! She made many friends, the teachers were very helpful and kind — also helping her with reading and prepping for school. The children get meals and a lot of outside playtime, which is wonderful.",
+        "author": "Anne Nemsitsveridze-Daniels",
+        "role": "parent"
       },
       {
-        "text": "რბილი ადაპტაცია ჩვენთვის ძალიან მნიშვნელოვანი იყო და Elliot-მა ეს იდეალურად შეასრულა. ყველა ნაცნობს ვურჩევთ!",
-        "author": "ანა ვ.",
-        "role": "მიშას დედა, 3 წლის"
+        "text": "Our 5-year-old son attended Little Seedlings from its opening. We can say this kindergarten is the one thing we miss the most. The owners, Mari and Willem, created the atmosphere of a warm, welcoming home rather than a formal educational establishment. Our kid was truly happy there. He showed huge progress in English, math and reading. The Montessori method of learning through play worked perfectly for him.",
+        "author": "Kirill Bashtovoy",
+        "role": "parent"
+      },
+      {
+        "text": "Our twin 5-year-olds love, love Little Seedlings. We love the size of the school, how international it is, and are amazed at what they have learned there. They come home singing songs about the planets and the continents and have made great friends. Mari, the director, is wonderful and provides excellent feedback along the way to make sure everyone's needs are met.",
+        "author": "Amy Beaulieu",
+        "role": "parent"
+      },
+      {
+        "text": "It is the best kindergarten. We highly recommend it.",
+        "author": "Dmitrii Kaplan",
+        "role": "parent"
+      },
+      {
+        "text": "It is such a loving kindergarten with wonderful teachers. My 4.5-year-old daughter loved going there every morning. Very, very recommended.",
+        "author": "Yael Gabay",
+        "role": "parent"
       }
     ]
   },
   "pricing": {
-    "title": "ფასები",
-    "subtitle": "გამჭვირვალე პირობები ფარული გადასახადების გარეშე",
-    "price": "800",
-    "currency": "ლარი/თვეში",
+    "title": "Pricing",
+    "subtitle": "Transparent pricing with no hidden fees",
+    "price": "Contact us",
+    "currency": "for pricing",
     "included": {
-      "title": "რა შედის ფასში",
+      "title": "What's Included",
       "items": [
-        "სრული დღე (8:30 — 19:00)",
-        "დღეში 4-5 კვება",
-        "ყველა განმავითარებელი აქტივობა",
-        "სეირნობა და თამაშები",
-        "ფოტო და ვიდეო ანგარიშები",
-        "თემატური ღონისძიებები"
+        "Full day Montessori program",
+        "English immersion all day",
+        "Montessori materials",
+        "Meals and snacks",
+        "Outdoor playtime",
+        "Regular parent updates"
       ]
     },
-    "note": "დამატებითი გაკვეთილები (ბალეტი, კარატე, ცურვა და სხვ.) ცალკე ფასიანია"
+    "note": "Contact us on WhatsApp for current pricing and availability"
   },
   "contacts": {
-    "title": "კონტაქტი",
-    "subtitle": "მობრძანდით ექსკურსიაზე — ყველაფერს გაჩვენებთ!",
+    "title": "Contacts",
+    "subtitle": "Come for a visit — we'd love to show you around!",
     "address": {
-      "title": "მისამართი",
-      "value": "40 კოსტავას ქ, Tbilisi 0179, საქართველო"
+      "title": "Address",
+      "value": "81 Lvovi St, Tbilisi"
     },
     "phone": {
-      "title": "ტელეფონი",
-      "value": "+995 551 50 33 23"
+      "title": "Phone",
+      "value": "+995 571 90 3885"
     },
     "whatsapp": {
       "title": "WhatsApp",
-      "value": "მოგვწერეთ"
+      "value": "Write to us"
     },
     "hours": {
-      "title": "სამუშაო საათები",
-      "weekdays": "ორშ-პარ: 08:30–19:00",
-      "weekend": "შაბ-კვი: დახურულია"
+      "title": "Opening Hours",
+      "weekdays": "Monday — Friday: 09:00–18:00",
+      "weekend": "Saturday — Sunday: Closed"
     },
     "instagram": {
       "title": "Instagram",
-      "value": "@kindergarten.elliot"
+      "value": "@littleseedlingstbilisi"
     },
     "form": {
-      "title": "ჩაეწერეთ ექსკურსიაზე",
-      "name": "თქვენი სახელი",
-      "phone": "ტელეფონი",
-      "message": "შეტყობინება",
-      "submit": "გაგზავნა",
-      "success": "გმადლობთ! მალე დაგიკავშირდებით."
+      "title": "Book a Visit",
+      "name": "Your name",
+      "phone": "Phone",
+      "message": "Message",
+      "submit": "Send Request",
+      "success": "Thank you! We will contact you soon."
     }
   },
   "footer": {
-    "rights": "ყველა უფლება დაცულია",
-    "privacy": "კონფიდენციალურობის პოლიტიკა"
+    "rights": "All rights reserved",
+    "privacy": "Privacy Policy"
   }
 }
