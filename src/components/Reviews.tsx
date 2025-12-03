@@ -106,26 +106,22 @@ export default function Reviews() {
           </div>
 
           {/* Navigation arrows */}
-          <motion.button
-            whileHover={{ scale: 1.1 }}
-            whileTap={{ scale: 0.95 }}
+          <button
             onClick={() => setActiveIndex(activeIndex > 0 ? activeIndex - 1 : reviews.length - 1)}
-            className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-4 md:-translate-x-16 w-12 h-12 bg-cream rounded-full shadow-soft-lg flex items-center justify-center hover:bg-sand transition-colors border border-sand"
+            className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-4 md:-translate-x-16 w-12 h-12 bg-cream rounded-full shadow-soft-lg flex items-center justify-center hover:bg-sand hover:shadow-soft-xl transition-all border border-sand"
           >
             <svg className="w-5 h-5 text-charcoal" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
             </svg>
-          </motion.button>
-          <motion.button
-            whileHover={{ scale: 1.1 }}
-            whileTap={{ scale: 0.95 }}
+          </button>
+          <button
             onClick={() => setActiveIndex(activeIndex < reviews.length - 1 ? activeIndex + 1 : 0)}
-            className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-4 md:translate-x-16 w-12 h-12 bg-cream rounded-full shadow-soft-lg flex items-center justify-center hover:bg-sand transition-colors border border-sand"
+            className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-4 md:translate-x-16 w-12 h-12 bg-cream rounded-full shadow-soft-lg flex items-center justify-center hover:bg-sand hover:shadow-soft-xl transition-all border border-sand"
           >
             <svg className="w-5 h-5 text-charcoal" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
             </svg>
-          </motion.button>
+          </button>
         </div>
       </div>
     </section>
