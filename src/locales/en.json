@@ -1,0 +1,190 @@
+{
+  "nav": {
+    "about": "About",
+    "program": "Program",
+    "gallery": "Gallery",
+    "nutrition": "Nutrition",
+    "reviews": "Reviews",
+    "pricing": "Pricing",
+    "contacts": "Contacts"
+  },
+  "hero": {
+    "title": "Little Seedlings English Kindergarten",
+    "subtitle": "Montessori-based English kindergarten in Saburtalo",
+    "description": "A warm, international kindergarten in Saburtalo that helps your child build real-life English skills, independence and self-esteem through the Montessori approach.",
+    "cta": "Book a Visit",
+    "whatsapp": "Text us on WhatsApp"
+  },
+  "advantages": {
+    "title": "Why Choose Little Seedlings",
+    "subtitle": "We combine the Montessori method with a fully English-speaking environment, helping children grow emotionally, socially and academically at their own pace.",
+    "items": {
+      "montessori": {
+        "title": "Montessori Learning",
+        "description": "Learning through play with authentic Montessori materials and child-led exploration"
+      },
+      "english": {
+        "title": "Real English Acquisition",
+        "description": "Daily English immersion helps children speak in full sentences within months"
+      },
+      "community": {
+        "title": "International Community",
+        "description": "Small, diverse groups create a warm, welcoming environment for every child"
+      },
+      "atmosphere": {
+        "title": "Home-like Atmosphere",
+        "description": "A cozy, nurturing space that feels like a second home, not a formal institution"
+      },
+      "teachers": {
+        "title": "Patient, Caring Teachers",
+        "description": "We handle behavioral challenges with love, patience and clear boundaries"
+      },
+      "communication": {
+        "title": "Strong Parent Communication",
+        "description": "Regular feedback and updates about your child's progress and development"
+      },
+      "outdoor": {
+        "title": "Plenty of Outdoor Play",
+        "description": "Daily outside playtime and movement are essential parts of our program"
+      },
+      "flexible": {
+        "title": "Not Rigid or Formal",
+        "description": "Children learn at their own pace in a relaxed, supportive environment"
+      }
+    }
+  },
+  "gallery": {
+    "title": "Our Life",
+    "subtitle": "Every day is filled with discovery, play, and learning"
+  },
+  "program": {
+    "title": "Program",
+    "subtitle": "Montessori education with full English immersion",
+    "age": {
+      "title": "Age",
+      "value": "3 to 6 years old"
+    },
+    "included": {
+      "title": "What's Included",
+      "items": [
+        "Montessori materials and activities",
+        "Reading and early literacy",
+        "Math and practical life skills",
+        "Sensorial activities",
+        "Songs and music",
+        "Science and geography (planets, continents)",
+        "Daily outdoor playtime",
+        "Meals and snacks"
+      ]
+    },
+    "extra": {
+      "title": "Learning Through English",
+      "items": [
+        { "name": "Reading", "icon": "english" },
+        { "name": "Math", "icon": "karate" },
+        { "name": "Science", "icon": "yoga" },
+        { "name": "Geography", "icon": "swimming" },
+        { "name": "Music", "icon": "singing" },
+        { "name": "Art", "icon": "ballet" }
+      ]
+    }
+  },
+  "nutrition": {
+    "title": "Nutrition",
+    "subtitle": "Healthy meals throughout the day",
+    "description": "Children receive nutritious meals and snacks during the day, giving them energy for learning and play.",
+    "menuUpdate": "Meals prepared fresh daily",
+    "downloadMenu": "Ask us about our menu"
+  },
+  "reviews": {
+    "title": "Parent Reviews",
+    "subtitle": "What families say about Little Seedlings",
+    "items": [
+      {
+        "text": "After just four months at Little Seedlings, my 5-year-old could already speak English fluently in almost every context. Beyond English, we saw our stepson grow out of his toddler habits and embrace boyhood with many new virtues. The teachers handled his hyperactivity with such love and care. We never felt guilty about his behavior, only more dedicated to helping him improve. There are no words to express our gratitude.",
+        "author": "Chad Meyers",
+        "role": "parent"
+      },
+      {
+        "text": "My daughter attended Little Seedlings for about three weeks in the summer as a summer school and it was wonderful! She made many friends, the teachers were very helpful and kind — also helping her with reading and prepping for school. The children get meals and a lot of outside playtime, which is wonderful.",
+        "author": "Anne Nemsitsveridze-Daniels",
+        "role": "parent"
+      },
+      {
+        "text": "Our 5-year-old son attended Little Seedlings from its opening. We can say this kindergarten is the one thing we miss the most. The owners, Mari and Willem, created the atmosphere of a warm, welcoming home rather than a formal educational establishment. Our kid was truly happy there. He showed huge progress in English, math and reading. The Montessori method of learning through play worked perfectly for him.",
+        "author": "Kirill Bashtovoy",
+        "role": "parent"
+      },
+      {
+        "text": "Our twin 5-year-olds love, love Little Seedlings. We love the size of the school, how international it is, and are amazed at what they have learned there. They come home singing songs about the planets and the continents and have made great friends. Mari, the director, is wonderful and provides excellent feedback along the way to make sure everyone's needs are met.",
+        "author": "Amy Beaulieu",
+        "role": "parent"
+      },
+      {
+        "text": "It is the best kindergarten. We highly recommend it.",
+        "author": "Dmitrii Kaplan",
+        "role": "parent"
+      },
+      {
+        "text": "It is such a loving kindergarten with wonderful teachers. My 4.5-year-old daughter loved going there every morning. Very, very recommended.",
+        "author": "Yael Gabay",
+        "role": "parent"
+      }
+    ]
+  },
+  "pricing": {
+    "title": "Pricing",
+    "subtitle": "Transparent pricing with no hidden fees",
+    "price": "Contact us",
+    "currency": "for pricing",
+    "included": {
+      "title": "What's Included",
+      "items": [
+        "Full day Montessori program",
+        "English immersion all day",
+        "Montessori materials",
+        "Meals and snacks",
+        "Outdoor playtime",
+        "Regular parent updates"
+      ]
+    },
+    "note": "Contact us on WhatsApp for current pricing and availability"
+  },
+  "contacts": {
+    "title": "Contacts",
+    "subtitle": "Come for a visit — we'd love to show you around!",
+    "address": {
+      "title": "Address",
+      "value": "81 Lvovi St, Tbilisi"
+    },
+    "phone": {
+      "title": "Phone",
+      "value": "+995 571 90 3885"
+    },
+    "whatsapp": {
+      "title": "WhatsApp",
+      "value": "Write to us"
+    },
+    "hours": {
+      "title": "Opening Hours",
+      "weekdays": "Monday — Friday: 09:00–18:00",
+      "weekend": "Saturday — Sunday: Closed"
+    },
+    "instagram": {
+      "title": "Instagram",
+      "value": "@littleseedlingstbilisi"
+    },
+    "form": {
+      "title": "Book a Visit",
+      "name": "Your name",
+      "phone": "Phone",
+      "message": "Message",
+      "submit": "Send Request",
+      "success": "Thank you! We will contact you soon."
+    }
+  },
+  "footer": {
+    "rights": "All rights reserved",
+    "privacy": "Privacy Policy"
+  }
+}
