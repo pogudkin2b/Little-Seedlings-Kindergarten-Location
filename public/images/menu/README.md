@@ -1,8 +1,8 @@
-# Изображения для меню питания
+# Menu Images
 
-Эта папка содержит изображения блюд для карточек меню.
+This folder contains meal images for menu cards.
 
-## Структура папок
+## Folder Structure
 
 ```
 menu/
@@ -32,39 +32,39 @@ menu/
     │   ├── breakfast.jpg
     │   ├── lunch.jpg
     │   └── snack.jpg
-    └── ... (то же самое для вторника-пятницы)
+    └── ... (same for Tuesday-Friday)
 ```
 
-## Требования к изображениям
+## Image Requirements
 
-- **Формат**: JPG или PNG
-- **Рекомендуемый размер**: 800x600px (соотношение 4:3)
-- **Содержание**: Блюда из меню на конкретный день
-- **Стиль**: Яркие, аппетитные, подходящие для детского сада
+- **Format**: JPG or PNG
+- **Recommended size**: 800x600px (4:3 aspect ratio)
+- **Content**: Dishes from the menu for specific days
+- **Style**: Bright, appetizing, suitable for kindergarten
 
-## Всего нужно изображений
+## Total Images Needed
 
-- 2 недели × 5 дней × 3 приема пищи = **30 изображений**
+- 2 weeks × 5 days × 3 meals = **30 images**
 
-## Примеры содержимого
+## Content Examples
 
-### Неделя 1 - Понедельник
-- `week1/monday/breakfast.jpg` — Овсяная каша, масло, хлеб, чай, фрукт
-- `week1/monday/lunch.jpg` — Рисовый суп, хлеб, морковный кекс
-- `week1/monday/snack.jpg` — Куриная котлета, гречневый гарнир, хлеб, сок
+### Week 1 - Monday
+- `week1/monday/breakfast.jpg` — Oatmeal, butter, bread, tea, fruit
+- `week1/monday/lunch.jpg` — Rice soup, bread, carrot muffin
+- `week1/monday/snack.jpg` — Chicken cutlet, buckwheat side dish, bread, juice
 
-### Неделя 1 - Вторник
-- `week1/tuesday/breakfast.jpg` — Манная каша, фруктовое пюре, хлеб, чай
-- `week1/tuesday/lunch.jpg` — Говяжья тефтеля, суп-пюре, огурцы и морковь
-- `week1/tuesday/snack.jpg` — Вермишель со сметаной, сок
+### Week 1 - Tuesday
+- `week1/tuesday/breakfast.jpg` — Semolina porridge, fruit puree, bread, tea
+- `week1/tuesday/lunch.jpg` — Beef meatball, cream soup, cucumbers and carrots
+- `week1/tuesday/snack.jpg` — Pasta with sour cream, juice
 
-... и так далее для всех дней обеих недель
+... and so on for all days of both weeks
 
-## Используемые пути
+## Used Paths
 
-Изображения загружаются по путям:
+Images are loaded from paths:
 - `/images/menu/week{1|2}/{monday-friday}/{breakfast|lunch|snack}.jpg`
 
-Например:
+For example:
 - `/images/menu/week1/monday/breakfast.jpg`
 - `/images/menu/week2/friday/snack.jpg`

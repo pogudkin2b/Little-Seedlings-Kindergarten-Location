@@ -5,12 +5,12 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { useI18n } from '@/lib/i18n';
 
 const images = [
-  { src: 'https://images.unsplash.com/photo-1544776193-352d25ca82cd?w=600&h=400&fit=crop', alt: 'Children playing' },
-  { src: 'https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=600&h=400&fit=crop', alt: 'Art class' },
-  { src: 'https://images.unsplash.com/photo-1587654780291-39c9404d746b?w=600&h=400&fit=crop', alt: 'Outdoor activities' },
-  { src: 'https://images.unsplash.com/photo-1576633587382-13ddf37b1fc1?w=600&h=400&fit=crop', alt: 'Learning together' },
-  { src: 'https://images.unsplash.com/photo-1560419015-7c427e8ae5ba?w=600&h=400&fit=crop', alt: 'Creative play' },
-  { src: 'https://images.unsplash.com/photo-1595959183082-7b570b7e1dfa?w=600&h=400&fit=crop', alt: 'Music time' },
+  { src: '/20190809_104618.webp', alt: 'Children at Little Seedlings' },
+  { src: '/20190305_112240.webp', alt: 'Learning and playing' },
+  { src: '/2021-12-26.webp', alt: 'Daily activities' },
+  { src: '/2022-02-02.webp', alt: 'Montessori learning' },
+  { src: '/2022-02-03-2.webp', alt: 'Creative activities' },
+  { src: '/main_pic.webp', alt: 'Our kindergarten life' },
 ];
 
 export default function Gallery() {
@@ -134,7 +134,7 @@ export default function Gallery() {
           className="flex justify-center mt-16"
         >
           <motion.a
-            href="https://www.instagram.com/kindergarten.elliot"
+            href="https://www.instagram.com/littleseedlingstbilisi"
             target="_blank"
             rel="noopener noreferrer"
             whileHover={{ scale: 1.02, y: -3 }}
@@ -147,7 +147,7 @@ export default function Gallery() {
               </svg>
             </div>
             <div className="text-left">
-              <div className="text-cream font-semibold">@kindergarten.elliot</div>
+              <div className="text-cream font-semibold">@littleseedlingstbilisi</div>
               <div className="text-cream/60 text-sm">Follow our daily stories</div>
             </div>
             <svg className="w-5 h-5 text-cream/60 group-hover:text-cream transition-colors ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -175,7 +175,7 @@ export default function Gallery() {
               onClick={(e) => e.stopPropagation()}
             >
               <img
-                src={images[selectedImage].src.replace('w=600&h=400', 'w=1400&h=1000')}
+                src={images[selectedImage].src}
                 alt={images[selectedImage].alt}
                 className="max-w-full max-h-[85vh] rounded-2xl object-contain"
               />
